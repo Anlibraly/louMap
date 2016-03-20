@@ -22,6 +22,7 @@
 <body>
 	<header>
 		<div class="header_box clearfix">
+			<a href=""></a>
 			<input type="text" id="search" value="" placeholder="搜索楼名或地址关键字" style="margin-left: 200px;padding: 5px;width: 402px;font-size: 18px;"/>
 			<input type="number" id="r" value="1000" placeholder="搜索楼名或地址关键字" style="margin-left: 20px;padding: 5px;width: 100px;font-size: 18px;"/>
 			<button style="margin-left: 15px;padding: 9px 15px;" onclick="getFang()">搜索</button>
@@ -36,9 +37,10 @@
 		           <span id="PP">类型</span>
 		           <ul id="peos">
 		           		<li onclick="queryPeo(-1,'所有');">所有</li>
-		           		<li onclick="queryPeo(0,'商用');">商用</li>
-		           		<li onclick="queryPeo(1,'民用');">民用</li>
-		           		<li onclick="queryPeo(2,'特殊');">特殊</li>
+		           		<li onclick="queryPeo(0,'写字楼');">写字楼</li>
+		           		<li onclick="queryPeo(1,'商务中心');">商务中心</li>
+		           		<li onclick="queryPeo(2,'创意园区');">创意园区</li>
+		           		<li onclick="queryPeo(3,'产业园区');">产业园区</li>
 		           </ul>           
 		        </div>
 		        <div id="datatime" class="sel_status r_status" style="margin-right: 10px;">
@@ -84,59 +86,35 @@
 		        <button onclick="getFang()" style="padding: 8px 10px;margin-left: 10px;">确定<button>
 		        
 			</div>
-			<div class="forBtn" style="display:none">
-				<div class="r_data_wrap" style="width: auto;">
-					<ul class="data_table">
-						<li style="background: none;"><a>浦东新区，共18家</a></li>
-						<li><a>区域一<i>10家</i></a></li>
-						<li><a>区域二<i>2家</i></a></li>
-						<li><a>区域三<i>2家</i></a></li>
-						<li><a>区域四<i>2家</i></a></li>
-						<li><a>区域五<i>2家</i></a></li>
-					</ul>
-				</div>
-				<span class="zhankai"></span>
+			<div id="lists" style="display:none;">
+				<ul>
+
+				</ul>
 			</div>
-		</div>
+				<script id="orgs-template" type="text/x-dot-template">
+					{{ for(var i in it.fang) { }}
+						<li>
+							<span>房源ID:{{=it.fang[i].f_id}}</span>
+							<span>面积:{{=it.fang[i].size}}</span>
+							<span>单价:{{=it.fang[i].per_price}}</span> 
+							<span>总价:{{=it.fang[i].total_price}}</span>    
+							<span>tel:{{=it.fang[i].tel_num}}</span>    
+							<span>楼名:{{=it.lou[it.fang[i].lou_id].lou_name}}</span>    
+							<span>地址:{{=it.lou[it.fang[i].lou_id].lou_address}}</span>
+						</li>
+					{{ } }}
+				</script>			
+	</div>
 		<div class="org_ta">
 			<div class="dl_box clearfix">
-			<form id="list" action="" method="post" style="float:right;">
-				<input type="hidden" value="1" name="tags"/>
-				<a onclick="$('#list').submit();" class="lb">列表</a>
-			</form>	
-				<a class="dt active2">地图</a>
+				<a onclick="show('0')" class="lb ld">列表</a>
+				<a onclick="show('1')" class="dt ld active2">地图</a>
 			</div>
 		</div>
 	</div>
-	<!--退出-弹框-->
-	<div class="add_m_wrap " id="exit_m_wrap">
-		<div class="add_content clearfix">
-			<h3 class="h_style">提示<a></a></h3>
-			<div class="u_name">
-				<p>确定要退出吗？</p>
-			</div>
-			<button type="button" onclick="window.location.href='logout.action'">确定</button>
-		</div>
-	</div>
-	
-	<!--修改密码-弹框-->
-	<div class="add_m_wrap " id="change_password_wrap">
-		<div class="add_content clearfix">
-			<h3 class="h_style">提示<a></a></h3>
-			<div class="u_name">
-				<input id="psw" class="name" type="text" value="" placeholder="请输入原密码" />
-				<input id="n_psw" class="name" type="text" value="" placeholder="请输入新密码" />
-				<input id="n_psw1" class="name" type="text" value="" placeholder="请再次输入新密码" />
-			</div>
-			<div class="hint">原密码输入错误</div>
-			<button type="button" onclick="changePsw();">确定</button>
-			<button type="button" onclick="$('#change_password_wrap').hide();">取消</button>
-		</div>
-	</div>
-		  	
 </body>
 </html>
-
+<script type="text/javascript" src="js/doT.min.js"></script>
 <script type="text/javascript">
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");
@@ -158,7 +136,7 @@
 	var markerClusterer;
 	var opts = {
 		  width : 200,     // 信息窗口宽度
-		  height: 200,     // 信息窗口高度
+		  height: 180,     // 信息窗口高度
 		  title : "房源信息", // 信息窗口标题
 		  enableMessage:true,//设置允许信息窗发送短息
 		  message:"房源信息"
@@ -196,10 +174,10 @@
 	function openInfo(content,e){
 		var p = e.target;
 		var point = new BMap.Point(p.getPosition().lng, p.getPosition().lat);
-		var infoWindow = new BMap.InfoWindow("ID:"+content.f_id+"<br>房源名:"+content.f_name
+		var infoWindow = new BMap.InfoWindow("ID:"+content.f_id+"<br>房源名:"+content.f_name+"-"+lou_info[content.lou_id].lou_name
 		+"<br>电话:"+content.tel_num+"<br>大小:"+content.size+"<br>单价:"+content.per_price+"<br>总价:"+content.total_price,opts);  // 创建信息窗口对象 
 		map.openInfoWindow(infoWindow,point); //开启信息窗口
-	
+		//console.log(content+"   "+lou_info[content.lou_id].lou_name);
 	}
 
 	function removeMk(){
@@ -233,10 +211,10 @@
 		//alert(11);
 		orgs = new Array();
 		for(var i in fang_info){
-			if(lou_info[fang_info[i].lou_id].type == type||type==-1){
-				if(size!=0&&(fang_info[i].size<=size&&fang_info[i].size>size-100)||(size==0&&fang_info[i].size>400)||size==-1){
-					if(total_price==-1||(fang_info[i].total_price<=total_price&&fang_info[i].total_price>total_price-10000)||(total_price==0&&fang_info[i].total_price>total_price)){
-						if(per_price==-1||(fang_info[i].per_price<=per_price&&fang_info[i].per_price>per_price-5)||(per_price==0&&fang_info[i].per_price>per_price)){
+			if(lou_info[fang_info[i].lou_id].type == type||type==-1||lou_info[fang_info[i].lou_id].type=="未更新"){
+				if(size!=0&&(fang_info[i].size<=size&&fang_info[i].size>size-100)||(size==0&&fang_info[i].size>400)||size==-1||fang_info[i].size=="未更新"){
+					if(fang_info[i].total_price=="未更新"||total_price==-1||(fang_info[i].total_price<=total_price&&fang_info[i].total_price>total_price-10000)||(total_price==0&&fang_info[i].total_price>total_price)){
+						if(fang_info[i].per_price=="未更新"||per_price==-1||(fang_info[i].per_price<=per_price&&fang_info[i].per_price>per_price-5)||(per_price==0&&fang_info[i].per_price>per_price)){
 							orgs.push(fang_info[i]);
 							//console.log(i);
 						}
@@ -281,11 +259,34 @@
 				//console.log(tmp);
 				circle = new BMap.Circle(mPoint,r,{fillColor:"blue", strokeWeight: 1 ,fillOpacity: 0.3, strokeOpacity: 0.3});
 			    map.addOverlay(circle);
+				var tpl = $("#orgs-template").text();
+				var tempFn = doT.template(tpl);
+				var datas = {
+					"lou":lou_info,
+					"fang":orgs
+				};
+				var rHtml = tempFn(datas);
+				$("#lists").html(rHtml);
 			    showOrgs();						
 			}else{
 				alert("您选择地址没有解析到结果!");
 			}
 		}, "上海市");
+	}
+	function show(i){
+		if(i == 0){
+			$("#lists").show();
+			$("#allmap").hide();
+			$(".nav_box").hide();
+			$(".ld").removeClass("active2");
+			$(".lb").addClass("active2");
+		}else{
+			$("#lists").hide();
+			$("#allmap").show();
+			$(".nav_box").show();
+			$(".ld").removeClass("active2");
+			$(".dt").addClass("active2");
+		}
 	}
 	function showOrgs(){
 		removeMk();

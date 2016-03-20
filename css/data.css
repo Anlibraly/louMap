@@ -1,3 +1,11 @@
+#lists li{
+	font-size: 14px;
+	margin: 20px;
+}
+#lists span{
+	padding: 5px;
+    border: 1px solid #888;
+}
 .r_time_wrap{
 	width: 940px;
 	border: 1px solid #e7e7e7;
