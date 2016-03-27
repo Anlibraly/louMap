@@ -1,5 +1,5 @@
 ﻿var fang_info = [{
-					"f_id":1,"f_name":"未更新","lou_id":"0","tel_num":"18917890526,15026526602","size":"未更新","per_price":"9.8","total_price":"未更新","time":"未更新"},{
+"f_id":1,"f_name":"未更新","lou_id":"0","tel_num":"18917890526,15026526602","size":"未更新","per_price":"9.8","total_price":"未更新","time":"未更新"},{
 "f_id":2,"f_name":"未更新","lou_id":"1","tel_num":"62708008","size":"未更新","per_price":"9.5","total_price":"未更新","time":"未更新"},{
 "f_id":3,"f_name":"未更新","lou_id":"2","tel_num":"63877777","size":"未更新","per_price":"9.5","total_price":"未更新","time":"未更新"},{
 "f_id":4,"f_name":"未更新","lou_id":"3","tel_num":"58826666","size":"未更新","per_price":"9.5","total_price":"未更新","time":"未更新"},{
@@ -416,7 +416,7 @@
 "f_id":415,"f_name":"未更新","lou_id":"414","tel_num":"暂无","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":416,"f_name":"未更新","lou_id":"415","tel_num":"13002186890","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":417,"f_name":"未更新","lou_id":"416","tel_num":"65989888","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
-"f_id":418,"f_name":"未更新","lou_id":"417","tel_num":"暂无","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
+"f_id":418,"f_name":"未更新","lou_id":"417","tel_num":"暂无","size":"未更新","per_price":"5.1","total_price":"未更新","time":"未更新"},{
 "f_id":419,"f_name":"未更新","lou_id":"418","tel_num":"64868888","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":420,"f_name":"未更新","lou_id":"419","tel_num":"63616174","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":421,"f_name":"未更新","lou_id":"420","tel_num":"暂无","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
@@ -592,7 +592,7 @@
 "f_id":591,"f_name":"未更新","lou_id":"590","tel_num":"51155573,22388067,18964554565","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
 "f_id":592,"f_name":"未更新","lou_id":"591","tel_num":"13761030003","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
 "f_id":593,"f_name":"未更新","lou_id":"592","tel_num":"13917153614,62496412","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
-"f_id":594,"f_name":"未更新","lou_id":"593","tel_num":"52170120,13311885038","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
+"f_id":594,"f_name":"未更新","lou_id":"593","tel_num":"52170120,13764471312吴小姐","size":"未更新","per_price":"3.4","total_price":"未更新","time":"未更新"},{
 "f_id":595,"f_name":"未更新","lou_id":"594","tel_num":"65857760,65857790","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
 "f_id":596,"f_name":"未更新","lou_id":"595","tel_num":"64266666","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
 "f_id":597,"f_name":"未更新","lou_id":"596","tel_num":"52705657","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
@@ -1020,7 +1020,7 @@
 "f_id":1019,"f_name":"未更新","lou_id":"1018","tel_num":"13636330469,51314031","size":"未更新","per_price":"2.4","total_price":"未更新","time":"未更新"},{
 "f_id":1020,"f_name":"未更新","lou_id":"1019","tel_num":"52820808","size":"未更新","per_price":"2.4","total_price":"未更新","time":"未更新"},{
 "f_id":1021,"f_name":"未更新","lou_id":"1020","tel_num":"56032228","size":"未更新","per_price":"2.4","total_price":"未更新","time":"未更新"},{
-"f_id":1022,"f_name":"未更新","lou_id":"1021","tel_num":"56653366,56655588,13611761358","size":"未更新","per_price":"2.4","total_price":"未更新","time":"未更新"},{
+"f_id":1022,"f_name":"100-37000方都有","lou_id":"1021","tel_num":"56653366,56655588,15026520570时林","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
 "f_id":1023,"f_name":"未更新","lou_id":"1022","tel_num":"61623100","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
 "f_id":1024,"f_name":"未更新","lou_id":"1023","tel_num":"暂无","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
 "f_id":1025,"f_name":"未更新","lou_id":"1024","tel_num":"61135300,18939927936","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
@@ -1039,7 +1039,7 @@
 "f_id":1038,"f_name":"未更新","lou_id":"1037","tel_num":"62659991","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
 "f_id":1039,"f_name":"未更新","lou_id":"1038","tel_num":"64361577,13801601222","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
 "f_id":1040,"f_name":"未更新","lou_id":"1039","tel_num":"64859900","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
-"f_id":1041,"f_name":"未更新","lou_id":"1040","tel_num":"64703068","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
+"f_id":1041,"f_name":"未更新","lou_id":"1040","tel_num":"64703068","size":"未更新","per_price":"3.5","total_price":"未更新","time":"未更新"},{
 "f_id":1042,"f_name":"未更新","lou_id":"1041","tel_num":"66821166","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
 "f_id":1043,"f_name":"未更新","lou_id":"1042","tel_num":"54210269,28591810,","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
 "f_id":1044,"f_name":"未更新","lou_id":"1043","tel_num":"53012995","size":"未更新","per_price":"2.3","total_price":"未更新","time":"未更新"},{
@@ -1151,7 +1151,7 @@
 "f_id":1150,"f_name":"未更新","lou_id":"1149","tel_num":"50476688,50499900","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
 "f_id":1151,"f_name":"未更新","lou_id":"1150","tel_num":"68412888","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
 "f_id":1152,"f_name":"未更新","lou_id":"1151","tel_num":"63403333","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
-"f_id":1153,"f_name":"未更新","lou_id":"1152","tel_num":"63612288,63609988,63602588","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
+"f_id":1153,"f_name":"未更新","lou_id":"1152","tel_num":"63612288,63609988,63602588","size":"未更新","per_price":"10","total_price":"未更新","time":"未更新"},{
 "f_id":1154,"f_name":"未更新","lou_id":"1153","tel_num":"23296856,63115588","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
 "f_id":1155,"f_name":"未更新","lou_id":"1154","tel_num":"29088111","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
 "f_id":1156,"f_name":"未更新","lou_id":"1155","tel_num":"61757111,13818519876","size":"未更新","per_price":"12","total_price":"未更新","time":"未更新"},{
@@ -1622,7 +1622,7 @@
 "f_id":1621,"f_name":"未更新","lou_id":"1620","tel_num":"18930836498,20306498","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":1622,"f_name":"未更新","lou_id":"1621","tel_num":"13761030003","size":"未更新","per_price":"3.3","total_price":"未更新","time":"未更新"},{
 "f_id":1623,"f_name":"未更新","lou_id":"1622","tel_num":"51557777,18602192556,135859792","size":"未更新","per_price":"6","total_price":"未更新","time":"未更新"},{
-"f_id":1624,"f_name":"未更新","lou_id":"1623","tel_num":"33876213,13761326116,186215508","size":"未更新","per_price":"3","total_price":"未更新","time":"未更新"},{
+"f_id":1624,"f_name":"未更新","lou_id":"1623","tel_num":"33876213,13761326116,186215508","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":1625,"f_name":"未更新","lou_id":"1624","tel_num":"18017109502","size":"未更新","per_price":"1.7","total_price":"未更新","time":"未更新"},{
 "f_id":1626,"f_name":"未更新","lou_id":"1625","tel_num":"61670955,18616357701顾经理","size":"未更新","per_price":"4","total_price":"未更新","time":"未更新"},{
 "f_id":1627,"f_name":"未更新","lou_id":"1626","tel_num":"52920298","size":"未更新","per_price":"8","total_price":"未更新","time":"未更新"},{
@@ -1978,5 +1978,80 @@
 "f_id":1977,"f_name":"4月初","lou_id":"63","tel_num":"68815566","size":"141","per_price":"11","total_price":"47176.3","time":"未更新"},{
 "f_id":1978,"f_name":"15、16、19","lou_id":"1155","tel_num":"61757111,13818519876","size":"208","per_price":"15","total_price":"94900","time":"未更新"},{
 "f_id":1979,"f_name":"15、16、19","lou_id":"1155","tel_num":"61757111,13818519876","size":"600","per_price":"15","total_price":"273750","time":"未更新"},{
-"f_id":1980,"f_name":"15、16、19","lou_id":"1155","tel_num":"61757111,13818519876","size":"400","per_price":"15","total_price":"182500","time":"未更新"
-				},];
+"f_id":1980,"f_name":"15、16、19","lou_id":"1155","tel_num":"61757111,13818519876","size":"400","per_price":"15","total_price":"182500","time":"未更新"},{
+"f_id":1981,"f_name":"k栋7f整层","lou_id":"565","tel_num":"52519888-66233白先生","size":"1490","per_price":"4","total_price":"181283","time":"现房"},{
+"f_id":1982,"f_name":"9-15F整层","lou_id":"1152","tel_num":"13636339870许小姐","size":"1333","per_price":"9.3","total_price":"377072","time":"现房"},{
+"f_id":1983,"f_name":"8F","lou_id":"1152","tel_num":"13636339870许小姐","size":"109","per_price":"8.5","total_price":"28181","time":"现房"},{
+"f_id":1984,"f_name":"10F可分割","lou_id":"1152","tel_num":"13636339870许小姐","size":"815","per_price":"9","total_price":"223106.3","time":"现房"},{
+"f_id":1985,"f_name":"10F可分割","lou_id":"1152","tel_num":"13636339870许小姐","size":"518","per_price":"9.5","total_price":"149680.4","time":"现房"},{
+"f_id":1986,"f_name":"18F整层带装修","lou_id":"1152","tel_num":"13636339870许小姐","size":"1300","per_price":"11","total_price":"434958.3","time":"现房"},{
+"f_id":1987,"f_name":"107-108有装修","lou_id":"1156","tel_num":"62470238,62471291,62479764","size":"460","per_price":"15","total_price":"209875","time":"42583"},{
+"f_id":1988,"f_name":"904有装修","lou_id":"1156","tel_num":"62470238,62471291,62479764","size":"165","per_price":"11","total_price":"55206.3","time":"现房"},{
+"f_id":1989,"f_name":"2011","lou_id":"1156","tel_num":"62470238,62471291,62479764","size":"330","per_price":"11","total_price":"110412.5","time":"现房"},{
+"f_id":1990,"f_name":"2708有装修","lou_id":"1156","tel_num":"62470238,62471291,62479764","size":"150","per_price":"12","total_price":"54750","time":"现房"},{
+"f_id":1991,"f_name":"2905有装修","lou_id":"1156","tel_num":"62470238,62471291,62479764","size":"164","per_price":"12","total_price":"59860","time":"现房"},{
+"f_id":1992,"f_name":"4102-4106有装修","lou_id":"1156","tel_num":"62470238,62471291,62479764","size":"980","per_price":"12","total_price":"357700","time":"42475"},{
+"f_id":1993,"f_name":"202-203","lou_id":"417","tel_num":"暂无","size":"189.47","per_price":"5.5","total_price":"31696.8","time":"42510"},{
+"f_id":1994,"f_name":"206-207","lou_id":"417","tel_num":"暂无","size":"359.89","per_price":"5.5","total_price":"60206.6","time":"42510"},{
+"f_id":1995,"f_name":"303","lou_id":"417","tel_num":"暂无","size":"62.46","per_price":"5.6","total_price":"10639","time":"42505"},{
+"f_id":1996,"f_name":"307","lou_id":"417","tel_num":"暂无","size":"82.51","per_price":"5.6","total_price":"14054.2","time":"42505"},{
+"f_id":1997,"f_name":"308","lou_id":"417","tel_num":"暂无","size":"73.79","per_price":"5.6","total_price":"12568.9","time":"42505"},{
+"f_id":1998,"f_name":"313-315","lou_id":"417","tel_num":"暂无","size":"151.82","per_price":"6.1","total_price":"28168.9","time":"42505"},{
+"f_id":1999,"f_name":"316-317","lou_id":"417","tel_num":"暂无","size":"138.64","per_price":"6.1","total_price":"25723.5","time":"42505"},{
+"f_id":2000,"f_name":"318-320","lou_id":"417","tel_num":"暂无","size":"175.2","per_price":"6.1","total_price":"32506.9","time":"42505"},{
+"f_id":2001,"f_name":"321","lou_id":"417","tel_num":"暂无","size":"169.67","per_price":"6.1","total_price":"31480.9","time":"42505"},{
+"f_id":2002,"f_name":"322","lou_id":"417","tel_num":"暂无","size":"158.4","per_price":"6.1","total_price":"29389.8","time":"42505"},{
+"f_id":2003,"f_name":"323-325","lou_id":"417","tel_num":"暂无","size":"332.45","per_price":"5.9","total_price":"59660.9","time":"42505"},{
+"f_id":2004,"f_name":"329","lou_id":"417","tel_num":"暂无","size":"44.5","per_price":"5.1","total_price":"6903.1","time":"42505"},{
+"f_id":2005,"f_name":"330","lou_id":"417","tel_num":"暂无","size":"44.5","per_price":"5.1","total_price":"6903.1","time":"42505"},{
+"f_id":2006,"f_name":"331","lou_id":"417","tel_num":"暂无","size":"55.71","per_price":"5.1","total_price":"8642","time":"42505"},{
+"f_id":2007,"f_name":"332","lou_id":"417","tel_num":"暂无","size":"54.47","per_price":"5.1","total_price":"8449.7","time":"42505"},{
+"f_id":2008,"f_name":"333","lou_id":"417","tel_num":"暂无","size":"44.5","per_price":"5.1","total_price":"6903.1","time":"42505"},{
+"f_id":2009,"f_name":"335","lou_id":"417","tel_num":"暂无","size":"44.5","per_price":"5.1","total_price":"6903.1","time":"42505"},{
+"f_id":2010,"f_name":"336","lou_id":"417","tel_num":"暂无","size":"37.45","per_price":"5.1","total_price":"5809.4","time":"42505"},{
+"f_id":2011,"f_name":"337","lou_id":"417","tel_num":"暂无","size":"44.36","per_price":"5.1","total_price":"6881.3","time":"42505"},{
+"f_id":2012,"f_name":"最小面积","lou_id":"593","tel_num":"13764471312吴小姐","size":"336","per_price":"3.4","total_price":"34748","time":"现房"},{
+"f_id":2013,"f_name":"最大面积","lou_id":"593","tel_num":"13764471312吴小姐","size":"1160","per_price":"3.4","total_price":"119963.3","time":"现房"},{
+"f_id":2014,"f_name":"A101","lou_id":"1966","tel_num":"13661439657 汪宁","size":"124.04","per_price":"8","total_price":"30183.1","time":"现房"},{
+"f_id":2015,"f_name":"A102","lou_id":"1966","tel_num":"13661439657 汪宁","size":"154.38","per_price":"8","total_price":"37565.8","time":"现房"},{
+"f_id":2016,"f_name":"A103","lou_id":"1966","tel_num":"13661439657 汪宁","size":"189.82","per_price":"8","total_price":"46189.5","time":"现房"},{
+"f_id":2017,"f_name":"B104","lou_id":"1966","tel_num":"13661439657 汪宁","size":"105.47","per_price":"8","total_price":"25664.4","time":"现房"},{
+"f_id":2018,"f_name":"B105","lou_id":"1966","tel_num":"13661439657 汪宁","size":"140.18","per_price":"8","total_price":"34110.5","time":"现房"},{
+"f_id":2019,"f_name":"C106","lou_id":"1966","tel_num":"13661439657 汪宁","size":"188.07","per_price":"8","total_price":"45763.7","time":"现房"},{
+"f_id":2020,"f_name":"A201","lou_id":"1966","tel_num":"13661439657 汪宁","size":"512.59","per_price":"6.5","total_price":"101343.3","time":"现房"},{
+"f_id":2021,"f_name":"B202","lou_id":"1966","tel_num":"13661439657 汪宁","size":"95.88","per_price":"6.5","total_price":"18956.3","time":"现房"},{
+"f_id":2022,"f_name":"B203","lou_id":"1966","tel_num":"13661439657 汪宁","size":"247.41","per_price":"6.5","total_price":"48915","time":"现房"},{
+"f_id":2023,"f_name":"B204","lou_id":"1966","tel_num":"13661439657 汪宁","size":"116.85","per_price":"6.5","total_price":"23102.2","time":"现房"},{
+"f_id":2024,"f_name":"C205","lou_id":"1966","tel_num":"13661439657 汪宁","size":"214.94","per_price":"6.5","total_price":"42495.4","time":"现房"},{
+"f_id":2025,"f_name":"A301","lou_id":"1966","tel_num":"13661439657 汪宁","size":"512.59","per_price":"6.5","total_price":"101343.3","time":"现房"},{
+"f_id":2026,"f_name":"B302","lou_id":"1966","tel_num":"13661439657 汪宁","size":"194.57","per_price":"6.5","total_price":"38468.1","time":"现房"},{
+"f_id":2027,"f_name":"B303","lou_id":"1966","tel_num":"13661439657 汪宁","size":"247.41","per_price":"6.5","total_price":"48915","time":"现房"},{
+"f_id":2028,"f_name":"B304","lou_id":"1966","tel_num":"13661439657 汪宁","size":"74.5","per_price":"6.5","total_price":"14729.3","time":"现房"},{
+"f_id":2029,"f_name":"C304","lou_id":"1966","tel_num":"13661439657 汪宁","size":"214.94","per_price":"6.5","total_price":"42495.4","time":"现房"},{
+"f_id":2030,"f_name":"A401","lou_id":"1966","tel_num":"13661439657 汪宁","size":"512.59","per_price":"6.5","total_price":"101343.3","time":"现房"},{
+"f_id":2031,"f_name":"B402","lou_id":"1966","tel_num":"13661439657 汪宁","size":"115.29","per_price":"6.5","total_price":"22793.8","time":"现房"},{
+"f_id":2032,"f_name":"B403","lou_id":"1966","tel_num":"13661439657 汪宁","size":"247.41","per_price":"6.5","total_price":"48915","time":"现房"},{
+"f_id":2033,"f_name":"B404","lou_id":"1966","tel_num":"13661439657 汪宁","size":"116.85","per_price":"6.5","total_price":"23102.2","time":"现房"},{
+"f_id":2034,"f_name":"C405","lou_id":"1966","tel_num":"13661439657 汪宁","size":"214.94","per_price":"6.5","total_price":"42495.4","time":"现房"},{
+"f_id":2035,"f_name":"A501","lou_id":"1966","tel_num":"13661439657 汪宁","size":"512.59","per_price":"6.5","total_price":"101343.3","time":"现房"},{
+"f_id":2036,"f_name":"B502","lou_id":"1966","tel_num":"13661439657 汪宁","size":"126.55","per_price":"6.5","total_price":"25020","time":"现房"},{
+"f_id":2037,"f_name":"B503","lou_id":"1966","tel_num":"13661439657 汪宁","size":"247.41","per_price":"6.5","total_price":"48915","time":"现房"},{
+"f_id":2038,"f_name":"B504","lou_id":"1966","tel_num":"13661439657 汪宁","size":"116.86","per_price":"6.5","total_price":"23104.2","time":"现房"},{
+"f_id":2039,"f_name":"B505","lou_id":"1966","tel_num":"13661439657 汪宁","size":"214.94","per_price":"6.5","total_price":"42495.4","time":"现房"},{
+"f_id":2040,"f_name":"A601","lou_id":"1966","tel_num":"13661439657 汪宁","size":"512.59","per_price":"6.5","total_price":"101343.3","time":"现房"},{
+"f_id":2041,"f_name":"1号楼601","lou_id":"1529","tel_num":"13122331238熊经理","size":"292.3","per_price":"3.5","total_price":"31117.8","time":"现房"},{
+"f_id":2042,"f_name":"201","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"145","per_price":"3.5","total_price":"15436.5","time":"现房"},{
+"f_id":2043,"f_name":"301","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"80","per_price":"3.5","total_price":"8516.7","time":"现房"},{
+"f_id":2044,"f_name":"302","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"68","per_price":"3.5","total_price":"7239.2","time":"现房"},{
+"f_id":2045,"f_name":"701","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"150","per_price":"3.5","total_price":"15968.8","time":"现房"},{
+"f_id":2046,"f_name":"众创空间1-2楼","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"28","per_price":"3.5","total_price":"2980.8","time":"现房"},{
+"f_id":2047,"f_name":"众创空间1-2楼","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"40","per_price":"3.5","total_price":"4258.3","time":"现房"},{
+"f_id":2048,"f_name":"众创空间1-2楼","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"56","per_price":"3.5","total_price":"5961.7","time":"现房"},{
+"f_id":2049,"f_name":"众创空间1-2楼","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"120","per_price":"3.5","total_price":"12775","time":"现房"},{
+"f_id":2050,"f_name":"众创空间3楼","lou_id":"1040","tel_num":"18602103457黄经理，18516769006肖小红","size":"339","per_price":"4.5","total_price":"46400.6","time":"现房"},{
+"f_id":2051,"f_name":"单层1100方","lou_id":"1967","tel_num":"15221680862张小姐","size":"339","per_price":"4","total_price":"41245","time":"现房"},{
+"f_id":2052,"f_name":"80-1100方","lou_id":"1968","tel_num":"13918657167","size":"未更新","per_price":"3","total_price":"未更新","time":"现房"},{
+"f_id":2053,"f_name":"100-14000方","lou_id":"1969","tel_num":"13816175242胡蓉","size":"未更新","per_price":"3.5","total_price":"未更新","time":"现房"},{
+"f_id":2054,"f_name":"500方独栋别墅","lou_id":"1970","tel_num":"暂无","size":"500","per_price":"7.2","total_price":"109500","time":"现房"},{
+"f_id":2055,"f_name":"独栋，豪华装修","lou_id":"1623","tel_num":"33876213,13761326116,186215508","size":"1121","per_price":"4","total_price":"136388.3","time":"未更新"
+	}];
